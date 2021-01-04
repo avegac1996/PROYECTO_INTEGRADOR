@@ -1,4 +1,4 @@
-                                                            # PROYECTO_INTEGRADOR
+                                                            # PROYECTO INTEGRADOR
                                                      ====================================
 
                                                       UNIVERSIDAD POLITÉCNICA SALESIANA 
@@ -8,9 +8,18 @@
                                                                SOFTWARE LIBRE
                                                               _________________
 
-VEGA ANTHONY; NARVAEZ JAVIER; JIMÉNEZ KEVIN; HEREDIA BRAYAN
+➼ VEGA ANTHONY 
+   avegac@est.ups.edu.ec; 
+   
+➼ NARVAEZ JAVIER
+   jnarvaezm4@est.ups.edu.ec;
+  
+➼ JIMÉNEZ KEVIN
+   kjimenezp1@est.ups.edu.ec;
+    
+➼ HEREDIA BRAYAN
+   bherediam@est.ups.edu.ec
 
-avegac@est.ups.edu.ec; jnarvaezm4@est.ups.edu.ec; kjimenezp1@est.ups.edu.ec; bherediam@est.ups.edu.ec
 
 “REPOSITORIO”
 
