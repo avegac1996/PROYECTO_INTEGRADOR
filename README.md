@@ -1,5 +1,5 @@
                                                             # PROYECTO INTEGRADOR
-                                                     ====================================
+                                                     =====================================
 
                                                       UNIVERSIDAD POLITÉCNICA SALESIANA 
 
