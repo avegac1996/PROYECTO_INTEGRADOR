@@ -6,7 +6,7 @@
                                                   INGENIERÍA EN CIENCIAS DE LA COMPUTACIÓN 
  
                                                                SOFTWARE LIBRE
-                                                              _________________
+                                                            --------------------
 
 ➼ VEGA ANTHONY 
    avegac@est.ups.edu.ec; 
