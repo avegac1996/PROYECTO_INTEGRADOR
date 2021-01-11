@@ -11,12 +11,14 @@
     justify-content: center;
     align-items: center;
 }
+
 .form-box {
   width: 300px;
   padding: 70px;
  
   text-align: center;
 }
+
 .form-title {
   color: aliceblue;
   text-transform: uppercase;
