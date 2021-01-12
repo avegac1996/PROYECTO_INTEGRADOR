@@ -15,12 +15,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .form-box {
   width: 300px;
   padding: 40px;
   /* background-color: black; */
   text-align: center;
 }
+
 .form-title {
   color: #161B22;
   text-transform: uppercase;
