@@ -5,9 +5,6 @@ body {
 /* 
 color de fondo */
 
-
-
-
   font-size: 1.2rem; /*tamaño de las letras*/
   line-height: 1.6em; /* interlineado */
   margin: 0;
@@ -147,11 +144,6 @@ p {
         background: #cc4444;
       }
 }
-
-
-
-
-
 
 /* container */
 .cont{
