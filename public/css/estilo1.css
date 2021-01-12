@@ -2,12 +2,12 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgb(236, 120, 11);
 
+/* 
+color de fondo */
 
 
- bbackground: #0F2027;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
+
+
   font-size: 1.2rem; /*tamaño de las letras*/
   line-height: 1.6em; /* interlineado */
   margin: 0;
@@ -146,4 +146,22 @@ p {
       .navigation ul li a:hover {
         background: #cc4444;
       }
+}
+
+
+
+
+
+
+/* container */
+.cont{
+  width: 85%;
+  max-width:  850px;
+  margin: 0 auto;
+}
+.item{
+  margin: 1em;
+  padding: 1em;
+  background-color:#FFFCCC;
+  float: left;
 }
