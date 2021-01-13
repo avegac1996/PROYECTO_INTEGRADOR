@@ -1,5 +1,6 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ 
   color: rgb(236, 120, 11);
 
 /* 
@@ -161,7 +162,55 @@ p {
 }
 .item{
   margin: 1em;
-  padding: 1em;
-  background-color:#FFFCCC;
+  padding: 3em;
+  background-color:#161B22;
   float: left;
 }
+
+
+
+/* nav */
+.navig ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+/* los enlaces dentro del menu */
+.navig ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.navig ul li a:hover {
+  background: #cc4444;
+}
+
+
+/* navig */
+.navig ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+/* los enlaces dentro del menu */
+.navig ul li a {
+  /* display: block; */
+  padding: 10rem 2rem;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.navig ul li a:hover {
+  background: #cc4444;
+}
+
+
