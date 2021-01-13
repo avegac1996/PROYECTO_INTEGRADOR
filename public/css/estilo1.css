@@ -6,9 +6,6 @@ body {
 /* 
 color de fondo */
 
-
-
-
   font-size: 1.2rem; /*tamaño de las letras*/
   line-height: 1.6em; /* interlineado */
   margin: 0;
@@ -149,11 +146,6 @@ p {
       }
 }
 
-
-
-
-
-
 /* container */
 .cont{
   width: 85%;
@@ -166,6 +158,7 @@ p {
   background-color:#161B22;
   float: left;
 }
+<<<<<<< HEAD
 
 
 
@@ -214,3 +207,5 @@ p {
 }
 
 
+=======
+>>>>>>> 5db8bef39de195b36f7f2a1c47d9fed2ea29e7da
