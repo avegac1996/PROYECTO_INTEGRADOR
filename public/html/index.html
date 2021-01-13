@@ -1,63 +1,102 @@
-<!DOCTYPE html> 
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/estilo1.css">
+    <title>PROYECTO INTEGRADOR</title>
 
-    <title>Proyecto_integrador</title>
+    <link rel="stylesheet" href="/public/css/estilos.css">
+
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
     <header class="header">
-        <div class="container logo-nav-container">
+        <div class="container-header">
+            <div class="container-logo-title">
 
-            <a href="index.html" class="logo">UPS</a>
-            <span class="menu-icon">Ver menú</span>
+                <h1>UPS</h1>
+            </div>
 
-            <nav class="navigation">
-                <ul class="show">
+            <div class="container-menu">
+                <label class="icon-menu"></label>
+                <nav class="menu">
+                    <ul>
+                        <li><label class="icon-home"></label><span class="icon-triangle-down icon2"></span>
 
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="rad_solar.html">Radiación Solar</a></li>
-                    <li><a href="rad_uv.html">Radiación UV</a></li>
-                    <li><a href="temperatura.html">Temperatura</a></li>
-                    <li><a href="login.html">Login</a></li>
-                </ul>
-            </nav>
+
+
+                        </li>
+
+
+                        <li class="icon-triangle-down"><a href="index.html">INICIO</a></li>
+
+
+                        <li>RADIACIÓN SOLAR <span class="icon-triangle-down"></span>
+
+                            <ul>
+
+                                <li><a href="m_solar.html">Mostrar datos</a></li>
+                                <li><a href="dd_solar.html">Descargar datos</a></li>
+                                <li><a href="dg_solar.html">Descargar graficas</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li>RADIACIÓN UV <span class="icon-triangle-down"></span>
+
+                            <ul>
+
+                                <li><a href="m_uv.html">Mostrar datos</a></li>
+                                <li><a href="dd_uv.html">Descargar datos</a></li>
+                                <li><a href="dg_solar.html">Descargar graficas</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li>TEMPERATURA <span class="icon-triangle-down"></span>
+
+                            <ul>
+
+                                <li><a href="m_temp.html">Mostrar datos</a></li>
+                                <li><a href="dd_temp.html">Descargar datos</a></li>
+                                <li><a href="dg_tem.html">Descargar graficas</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li class="icon-triangle-down"><a href="login.html">LOGIN</a></li>
+
+
+
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
 
-    <main class="main">
+    <BR><BR><BR><BR><BR><BR><BR><BR>
 
-        <h2> </h2>
-        <figure align="center">
-
-
-            <img src="/public/img/unnamed.jpg" width=1000 height=520>
-
-        </figure>
+    <figure align="center">
 
 
-    </main>
+        <img src="/public/img/unnamed.jpg" width=1000 height=520>
 
-    <!-- <footer class="footer">
-        <div class="contanier">
-            <p>PROYECTO INTEGRADOR</p>
-            <p> ➼ VEGA ANTHONY
-                ➼ NARVAEZ JAVIER
+    </figure>
 
-                ➼ JIMÉNEZ KEVIN
 
-                ➼ HEREDIA BRAYAN
 
-            </p>
-
-        </div>
-    </footer> -->
+    <script src="/public/js/jquery.js"></script>
+    <script src="/public/js/script.js"></script>
 
 </body>
+
+
 
 </html>

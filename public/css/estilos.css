@@ -12,13 +12,19 @@ body {
   }
   
 
-
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
 
 .container-header{
     background: #161B22;
   color: white;
   right: 0;
 
+  
+   
+  
 
     /* width: 100%; */
     /* max-width: 1220px; */
@@ -47,6 +53,8 @@ body {
 
 
 .container-menu{
+    color: white;
+  text-decoration: none;
     
 }
 
@@ -111,8 +119,8 @@ body {
     top: 60px;
     left: 0;
     flex-direction: column;
-    border: 1px solid #eeeeee;
-    background: white;
+    border: 1px solid #161B22;
+    background:#161B22;
     border-bottom: 1px solid #55A79A;
     padding: 10px;
 }
@@ -121,12 +129,12 @@ body {
     padding: 10px 20px;
     border-bottom: 1px solid #eeeeee;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 20px;
     position: relative;
 }
 
 .menu ul li ul li:hover{
-    background: #FAFAFA;
+    background: #062858;
 }
 
 .menu ul li ul li ul{
@@ -138,6 +146,8 @@ body {
 .icon-menu{
     display: none;
 }
+
+
 
 main{
     width: 100%;
