@@ -313,15 +313,39 @@ article p{
     }
 }
 
+  
+  /*PIE DE PAGINA*/
+  .footer {
+
+    color: #f0a70b;
+    background: #18191a;
+    padding: 0.1rem 0;
+    text-align: center;
+    margin-top: 60rem;
+
+    flex-wrap: wrap;
+min-width: 300px;
+margin-bottom: 0px;
+
+  }
+  
 
 
 
+  .foot{
 
+    color: #f0a70b;
+    background: #18191a;
+    padding: 0.1rem 0;
+    text-align: center;
+    margin-top: 10rem;
 
+    flex-wrap: wrap;
+min-width: 300px;
+margin-bottom: 0px;
 
-
-
-
+  }
+  
 
 
 
