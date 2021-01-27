@@ -9,7 +9,7 @@ valores = df.values
 
 # for x in valores:
 #     print(
-#        f'INSERT INTO ubi_Rad_UV (id_UV, Id_Admin, UV_Centro, UV_Cotocollao, UV_Guamani, UV_Jipijapa) VALUES ({""}, {""}, {x[2]}, {x[3]}, {x[4]}, {x[5]});')
+#         f'INSERT INTO ubi_Rad_UV (id_UV, Id_Admin, UV_Centro, UV_Cotocollao, UV_Guamani, UV_Jipijapa) VALUES ({""}, {""}, {x[2]}, {x[3]}, {x[4]}, {x[5]});')
 
 contador = 1
 file = open("radiacion_uv.txt", "w")
