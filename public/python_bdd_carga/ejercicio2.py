@@ -1,4 +1,4 @@
-# RADIACION SOLARr
+# RADIACION SOLAR
 
 import pandas as pd
 
