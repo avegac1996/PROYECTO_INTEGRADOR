@@ -8,16 +8,16 @@
                                                                SOFTWARE LIBRE
                                                             --------------------
 
-➼ VEGA ANTHONY 
+➼ VEGA ANTHONY.
    avegac@est.ups.edu.ec; 
    
-➼ NARVAEZ JAVIER
+➼ NARVAEZ JAVIER.
    jnarvaezm4@est.ups.edu.ec;
   
-➼ JIMÉNEZ KEVIN
+➼ JIMÉNEZ KEVIN.
    kjimenezp1@est.ups.edu.ec;
     
-➼ HEREDIA BRAYAN
+➼ HEREDIA BRAYAN.
    bherediam@est.ups.edu.ec
 
 
