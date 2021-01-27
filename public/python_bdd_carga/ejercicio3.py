@@ -11,7 +11,6 @@ for x in valores:
         f'INSERT INTO ubi_temperatura (id_temperatura, Id_Admin, Tmp_Belisario, Tmp_Carapungo, Tmp_Centro, Tmp_Cotocollao, Tmp_ElCamal, Tmp_Guamani, Tmp_LosChillos, Tmp_SanAntonio, Tmp_Tumbaco) VALUES ({""}, {""}, {x[2]}, {x[3]}, {x[4]}, {x[5]},, {x[6]},, {x[7]},, {x[8]},, {x[9]},, {x[10]});')
 
 
-
 contador = 1
 file = open("temperatura.txt", "w")
 
