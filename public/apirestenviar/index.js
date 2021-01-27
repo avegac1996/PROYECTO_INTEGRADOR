@@ -18,8 +18,8 @@ app.use((req, res, next) => {
 const config = {
   user: "postgres",
   host: "localhost",
-  password: "1996",
-  database: "relacional", node
+  password: "12345",
+  database: "relacional",
 };
 
 const pool = new Pool(config);
