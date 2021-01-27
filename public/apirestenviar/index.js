@@ -15,7 +15,6 @@ app.use((req, res, next) => {
   });
 });
 
-
 const config = {
   user: "postgres",
   host: "localhost",
