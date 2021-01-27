@@ -115,7 +115,6 @@ $(window).resize(function () {
         overflow = 0;
       }
     });
-  }
-  
+  }  
 });
 
