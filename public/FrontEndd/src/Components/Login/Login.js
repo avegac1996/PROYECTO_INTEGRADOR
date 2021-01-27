@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../resources/img/logo_ups.png";
 
+
 class Login extends Component {
   render() {
     return (
