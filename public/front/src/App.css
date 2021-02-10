@@ -1,0 +1,42 @@
+.letra-color {
+  color: #f5f0f0 !important;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.letra-color-2 {
+  color: #eee6e6 !important;
+  font-family: "Potta One", cursive;
+}
+.letra-color-3 {
+  color: #f5f0f0 !important;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 50px;
+}
+
+.letra-color-2:hover {
+  color: #0062c6 !important;
+}
+
+.estilo-fuente {
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.estilo-fuente2 {
+  font-family: "Potta One", cursive;
+}
+
+.login {
+  margin-top: 20px;
+}
+
+.boton {
+  width: 250px;
+}
+
+.fondo-navbar {
+  background-color: #003871;
+}
+
+/* .quitar-bordes {
+  padding-left: 0px !important;
+} */

@@ -1,0 +1,8 @@
+--SELECT rad_solar.id_rad_solar,rad_solar.solar_fecha,rad_solar.solar_hora, ubi_rad_solar.tmp_belisario,  ubi_rad_solar.tmp_carapungo,ubi_rad_solar.tmp_centro, ubi_rad_solar.tmp_cotocollao, ubi_rad_solar.tmp_elcamal,ubi_rad_solar.tmp_guamani, ubi_rad_solar.tmp_loschillos, ubi_rad_solar.tmp_sanantonio, ubi_rad_solar.tmp_tumbaco 
+--FROM rad_solar, ubi_rad_solar WHERE rad_solar.id_rad_solar = ubi_rad_solar.id_rad_solar;
+
+--SELECT rad_uv.id_uv, uv_centro, uv_cotocollao, uv_guamani, uv_jipijapa FROM rad_uv, ubi_rad_uv WHERE rad_uv.id_uv = ubi_rad_uv.id_uv
+
+--SELECT temperatura.id_temperatura, tmp_fecha, tmphora, tmp_belisario, tmp_carapungo, tmp_centro, tmp_cotocollao, tmp_elcamal, tmp_guamani, tmp_loschillos, tmp_sanantonio, tmp_tumbaco FROM temperatura, ubi_temperatura WHERE temperatura.id_temperatura = ubi_temperatura.id_temperatura
+--SELECT * FROM ubi_temperatura
+SELECT * FROM temperatura
