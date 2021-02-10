@@ -349,8 +349,11 @@ app.post("/Deleteadmin", (req, response) => {
 
 
 
+
+
+
+
 app.listen("8010", () => {
   console.log("SERVIDOR EN 8010");
 });
 
-// TEMPERATURA------------------------------------------------

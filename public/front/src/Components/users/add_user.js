@@ -10,30 +10,36 @@ class add_user extends Component {
                     <div className="header">Register</div>
                     <div className="content">
 
-                        <div className="form">
+                        <div className="text-center">
                             <div className="form-group">
                                 <label htmlFor="username">Nombre</label>
+                                <br />
                                 <input type="text" name="username" placeholder="username" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="username">Apellido</label>
+                                <br />
                                 <input type="text" name="username" placeholder="username" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="email">Email</label>
+                                <br />
                                 <input type="text" name="email" placeholder="email" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Password</label>
+                                <br />
                                 <input type="text" name="password" placeholder="password" />
                             </div>
                         </div>
                     </div>
+                    <br /><br /><br />
                 </div>
-                <div className="footer">
-                    <button type="button" className="btn">
-                        Register
-                 </button>
+                <div className="text-center">
+
+                    <a href="adduser" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
+                        Registrar
+                </a>
                 </div>
 
 
