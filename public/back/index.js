@@ -21,8 +21,8 @@ app.use((req, res, next) => {
 const config = {
   user: "postgres",
   host: "localhost",
-  password: "12345",
-  database: "Quito",
+  password: "1996",
+  database: "relacional",
 };
 
 const pool = new Pool(config);
@@ -50,8 +50,8 @@ const getRadiacionSolar = async (num) => {
     const res = await pool.query(
       `SELECT rad_solar.id_rad_solar as id,solar_fecha as "Fecha",solar_hora as "Hora", tmp_belisario as "Belisario", tmp_carapungo as "Carapungo",tmp_centro as "Centro", tmp_cotocollao as "Cotocollao", tmp_elcamal as "Camal",tmp_guamani as "Guamaní", tmp_loschillos as "Chillos", tmp_sanantonio as "SanAntonio", tmp_tumbaco as "Tumbaco" 
       FROM rad_solar, ubi_rad_solar WHERE rad_solar.id_rad_solar = ubi_rad_solar.id_rad_solar` +
-        anio +
-        only
+      anio +
+      only
     );
     titulos = Object.keys(res.rows[0]).map((key) => {
       return key;
@@ -96,8 +96,8 @@ const getRadiacionUV = async (num) => {
     const res = await pool.query(
       `SELECT rad_uv.id_uv as "id", uv_fecha as "Fecha", uv_hora as "Hora",uv_centro as "Centro", uv_cotocollao as "Cotocollao", uv_guamani as "Guamaní", uv_jipijapa as "Jipijapa" FROM rad_uv, ubi_rad_uv WHERE rad_uv.id_uv = ubi_rad_uv.id_uv
     ` +
-        anio +
-        only
+      anio +
+      only
     );
     titulos = Object.keys(res.rows[0]).map((key) => {
       console.log(key);
@@ -121,8 +121,8 @@ const getTemperatura = async (num) => {
     }
     const res = await pool.query(
       `SELECT temperatura.id_temperatura as "id", tmp_fecha as "Fecha", tmphora as "Hora", tmp_belisario as "Belisario", tmp_carapungo as "Carapungo", tmp_centro as "Centro", tmp_cotocollao as "Cotocollao", tmp_elcamal as "Camal", tmp_guamani as "Guamaní", tmp_loschillos as "Chillos", tmp_sanantonio as "SanAntonio", tmp_tumbaco as "Tumbaco" FROM temperatura, ubi_temperatura WHERE temperatura.id_temperatura = ubi_temperatura.id_temperatura` +
-        anio +
-        only
+      anio +
+      only
     );
     titulos = Object.keys(res.rows[0]).map((key) => {
       console.log(key);

@@ -42,7 +42,7 @@ class QuienesSomos extends Component {
           <li class="list-group-item">Python</li>
           <li class="list-group-item">Postgress</li>
           <li class="list-group-item">PgAdmin</li>
-          <li class="list-group-item">Java</li>
+          <li class="list-group-item">JavaScript</li>
           <li class="list-group-item">Para el desarrollo del front-end hemos utilizado react.js(JavaScript, Node.JS y estilos)</li>
           <li class="list-group-item"> En la parte del back-end hemos utilizado python y pgadmin</li>
         </ul>
