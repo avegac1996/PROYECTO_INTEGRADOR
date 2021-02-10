@@ -9,13 +9,13 @@
                                                             --------------------
 
 ➼ VEGA ANTHONY.
-   avegac@est.ups.edu.ec; 
+   avegac@est.ups.edu.ec 
    
 ➼ NARVAEZ JAVIER.
-   jnarvaezm4@est.ups.edu.ec;
+   jnarvaezm4@est.ups.edu.ec
   
 ➼ JIMÉNEZ KEVIN.
-   kjimenezp1@est.ups.edu.ec;
+   kjimenezp1@est.ups.edu.ec
     
 ➼ HEREDIA BRAYAN.
    bherediam@est.ups.edu.ec
