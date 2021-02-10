@@ -3,7 +3,7 @@
 
                                                       UNIVERSIDAD POLITÉCNICA SALESIANA 
 
-                                                  INGENIERÍA EN CIENCIAS DE LA COMPUTACIÓN 
+                                                   INGENIERÍA EN CIENCIAS DE LA COMPUTACIÓN 
  
                                                                SOFTWARE LIBRE
                                                             --------------------
