@@ -42,7 +42,7 @@ class principal extends Component {
                 </div>
                 {/* AGREGAR USUARIO */}
                 <div className="text-center">
-                    <a href="RsCommands" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
+                    <a href="adduser" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
                         AGREGAR USUARIOS
                 </a>
                     <br /><br /><br />

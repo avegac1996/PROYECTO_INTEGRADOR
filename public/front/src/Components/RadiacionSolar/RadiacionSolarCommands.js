@@ -5,7 +5,7 @@ class RadiacionSolarCommands extends Component {
   render() {
     return (
       <>
-        <h1>BASE RADIACÓN UV </h1>
+        <h1>BASE RADIACIÓN SOLAR </h1>
         {/* VOLVER*/}
 
         <div className="text-center">

@@ -1,65 +1,46 @@
 import React, { Component } from "react";
-
-import img1 from "../../resources/img/foto1.jpg";
-import img2 from "../../resources/img/foto2.png";
-import RadiacionSolar from "../RadiacionSolar/RadiacionSolar";
-import RadiacionSolarCommands from "../RadiacionSolar/RadiacionSolarCommands";
-
+import TablesCommands from "../Tables/TablesCommands";
 
 class add_user extends Component {
     render() {
         return (
-            <div class="container">
-                <br />
-                <h1 class="text-center estilo-fuente">CONTROL ATMOSFERICO DEL DMQ (MEDICIÓN ATMOSFÉRICA, RADIACIÓN SOLAR, ULTRAVIOLETA Y TEMPERATURA)</h1>
-                <br />
+            <>
 
-                <h2 className="text-center">BIENVENIDO</h2>
-                <br /><br /><br />
+                <div className="base-container" ref={this.props.containerRef}>
+                    <div className="header">Register</div>
+                    <div className="content">
 
-                {/* RADIACION SOLAR */}
-
-                <div className="text-center">
-                    <a href="RsCommands" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
-                        Radiacion Solar
-                </a>
-                    <br /><br /><br />
+                        <div className="form">
+                            <div className="form-group">
+                                <label htmlFor="username">Nombre</label>
+                                <input type="text" name="username" placeholder="username" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="username">Apellido</label>
+                                <input type="text" name="username" placeholder="username" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="email">Email</label>
+                                <input type="text" name="email" placeholder="email" />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="password">Password</label>
+                                <input type="text" name="password" placeholder="password" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                {/* RADIACION UV */}
-                <div className="text-center">
-                    <a href="RuvCommands" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
-                        Radiacion UV
-                </a>
-                    <br /><br /><br />
+                <div className="footer">
+                    <button type="button" className="btn">
+                        Register
+                 </button>
                 </div>
-                {/* TEMPERATURA */}
-
-                <div className="text-center">
-                    <a href="TempCommands" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
-                        TEMPERATURA
-                </a>
-                    <br /><br /><br />
-                </div>
-                {/* AGREGAR USUARIO */}
-                <div className="text-center">
-                    <a href="RsCommands" onclick="console.log('The link was clicked.'); return false" className="btn btn-primary btn-lg boton" size="70">
-                        AGREGAR USUARIOS
-                </a>
-                    <br /><br /><br />
-
-                </div>
-            </div >
 
 
 
 
-
-
+            </>
         );
     }
 }
-
-
-
-
 export default add_user;

@@ -7,7 +7,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const { Pool } = require("pg");
-const { default: Temperatura } = require("../front/src/Components/Temperatura/Temperatura");
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -39,8 +38,59 @@ const getUsuarios = async (username, password) => {
   }
 };
 
+
+
+
+
+
+
+
+// ver usuarios-----------------------------------------------------------
+
+// const getUsuarios = async (num) => {
+//   try {
+
+//     const res = await pool.query(
+//       `SELECT administrador.id_admin as id_admin,nombre,apellido,correo, contraseña
+//       FROM administrador `
+//     );
+//     titulos = Object.keys(res.rows[0]).map((key) => {
+//       return key;
+//     });
+//     return { rows: res.rows, columns: titulos, tamanio: res.rowCount };
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+const Editadmin = async (objeto) => {
+  try {
+    const sqlStatement = `UPDATE administrador SET nombre=${objeto.Nombre}, apellido=${objeto.Apellido}, correo=${objeto.Correo}, contraseña=${objeto.Password} where id_admin=${objeto.id}`;
+    console.log(sqlStatement);
+    const res = await pool.query(sqlStatement);
+    return { mensaje: "editado" };
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const Deleteadmin = async (id) => {
+  try {
+    const sqlStatement = `Delete from administrador where id_admin = ${id};Delete from administrador where id_admin = ${id}`;
+    console.log(sqlStatement);
+    const res = await pool.query(sqlStatement);
+    return { mensaje: "eliminado" };
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+
+
+
+
 // -----------------------------------
-// -------RADIACION SOLAR -----------
+// -------RADIACION SOLAR ---------------------------------------------------------------------
 // -----------------------------------
 const getRadiacionSolar = async (num) => {
   try {
@@ -109,6 +159,34 @@ const getRadiacionUV = async (num) => {
     console.log(error);
   }
 };
+
+
+
+
+const EditRadiacionUv = async (objeto) => {
+  try {
+    const sqlStatement = `UPDATE ubi_rad_uv SET uv_centro=${objeto.Centro}, uv_cotocollao=${objeto.Cotocollao}, uv_guamani=${objeto.Guamani}, uv_jipijapa=${objeto.Jipijapa} where id_uv=${objeto.id}`;
+    console.log(sqlStatement);
+    const res = await pool.query(sqlStatement);
+    return { mensaje: "editado" };
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const DeleteRadiacionUv = async (id) => {
+  try {
+    const sqlStatement = `Delete from ubi_rad_uv where id_uv = ${id};Delete from rad_uv where id_uv = ${id}`;
+    console.log(sqlStatement);
+    const res = await pool.query(sqlStatement);
+    return { mensaje: "eliminado" };
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+
+
 
 // -----------------------------------
 // -------RADIACION TEMPERATURA-------
@@ -191,6 +269,8 @@ app.get("/Temperatura", (req, response) => {
     });
 });
 
+
+// SOLAR............................................................
 // POST
 app.post("/EditRadiacionSolar", (req, response) => {
   editRadiacionSolar(req.body)
@@ -215,6 +295,62 @@ app.post("/DeleteRadiacionSolar", (req, response) => {
     });
 });
 
+// UV......................................................................
+
+
+
+// uv
+app.post("/EditRadiacionUv", (req, response) => {
+  editRadiacionSolar(req.body)
+    .then((data) => {
+      console.log("POST /Edición correcta");
+      response.json(data);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+});
+
+// Delete
+app.post("/DeleteRadiacionUv", (req, response) => {
+  deleteRadiacionSolar(req.body.id)
+    .then((data) => {
+      console.log("POST /Edición correcta");
+      response.json(data);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+});
+// admin---------------------------------------
+// admin
+app.post("/Editadmin", (req, response) => {
+  Editadmin(req.body)
+    .then((data) => {
+      console.log("POST /Edición correcta");
+      response.json(data);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+});
+
+// Delete
+app.post("/Deleteadmin", (req, response) => {
+  Deleteadmin(req.body.id)
+    .then((data) => {
+      console.log("POST /Edición correcta");
+      response.json(data);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+});
+
+
+
 app.listen("8010", () => {
   console.log("SERVIDOR EN 8010");
 });
+
+// TEMPERATURA------------------------------------------------

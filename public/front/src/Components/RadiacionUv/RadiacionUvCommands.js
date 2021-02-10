@@ -15,7 +15,7 @@ class RadiacionUvCommands extends Component {
                     <br /><br /><br />
                 </div>
 
-                <TablesCommands url="RadiacionSolar" edit="EditRadiacionUv" delete="DeleteRadiacionUv" />
+                <TablesCommands url="RadiacionUv" edit="EditRadiacionUv" delete="DeleteRadiacionUv" />
             </>
         );
     }
