@@ -7,6 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const { Pool } = require("pg");
+const { default: Temperatura } = require("../front/src/Components/Temperatura/Temperatura");
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");

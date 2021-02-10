@@ -17,6 +17,7 @@ import TemperaturaCsv from "./Components/Temperatura/TemperaturaCsv";
 import temperaturaCommands from "./Components/Temperatura/temperaturaCommands";
 import RadiacionUvCommands from "./Components/RadiacionUv/RadiacionUvCommands";
 import principal from "./Components/Principal/principal";
+import add_user from "./Components/users/add_user";
 
 
 function App() {
@@ -40,6 +41,8 @@ function App() {
         <Route exact path="/TempCommands" component={temperaturaCommands}></Route>
         <Route exact path="/RuvCommands" component={RadiacionUvCommands}></Route>
         <Route exact path="/Principal" component={principal}></Route>
+        <Route exact path="/adduser" component={add_user}></Route>
+
       </div>
     </Router>
   );

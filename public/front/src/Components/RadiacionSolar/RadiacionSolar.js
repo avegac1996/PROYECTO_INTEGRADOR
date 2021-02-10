@@ -5,7 +5,8 @@ class RadiacionSolar extends Component {
   render() {
     return (
       <>
-        <Tables url="RadiacionSolar" title="Radiacion Solar"/>
+
+        <Tables url="RadiacionSolar" title="Radiacion Solar" />
       </>
     );
   }

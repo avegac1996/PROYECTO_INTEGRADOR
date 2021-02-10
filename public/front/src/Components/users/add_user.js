@@ -6,7 +6,7 @@ import RadiacionSolar from "../RadiacionSolar/RadiacionSolar";
 import RadiacionSolarCommands from "../RadiacionSolar/RadiacionSolarCommands";
 
 
-class principal extends Component {
+class add_user extends Component {
     render() {
         return (
             <div class="container">
@@ -62,4 +62,4 @@ class principal extends Component {
 
 
 
-export default principal;
+export default add_user;
