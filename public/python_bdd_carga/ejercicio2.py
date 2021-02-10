@@ -1,6 +1,5 @@
 # RADIACION SOLAR
 
-
 import pandas as pd
 
 df = pd.read_csv('RS.csv')
