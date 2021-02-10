@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import TablesCommands from "../Tables/TablesCommands";
 
-class RadiacionSolarCommands extends Component {
+class RadiacionUvCommands extends Component {
     render() {
         return (
             <>
-                <h1>Radiacion Solar Commands</h1>
-                <TablesCommands url="RadiacionSolar" edit="EditRadiacionSolar" delete="DeleteRadiacionSolar" />
+                <h1>Radiacion UV Commands</h1>
+                <TablesCommands url="RadiacionSolar" edit="EditRadiacionUv" delete="DeleteRadiacionUv" />
             </>
         );
     }
 }
 
-export default RadiacionSolarCommands;
+export default RadiacionUvCommands;

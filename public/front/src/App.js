@@ -14,6 +14,10 @@ import TemperaturaFotos from "./Components/Temperatura/TemperaturaFotos";
 import RadiacionSolarCsv from "./Components/RadiacionSolar/RadiaconSolarCsv";
 import RadiacionUvCsv from "./Components/RadiacionUv/RadiacionUvCsv";
 import TemperaturaCsv from "./Components/Temperatura/TemperaturaCsv";
+import temperaturaCommands from "./Components/Temperatura/temperaturaCommands";
+import RadiacionUvCommands from "./Components/RadiacionUv/RadiacionUvCommands";
+import principal from "./Components/Principal/principal";
+
 
 function App() {
   return (
@@ -33,6 +37,9 @@ function App() {
         <Route exact path="/TemperaturaCsv" component={TemperaturaCsv}></Route>
         <Route exact path="/QuienesSomos" component={QuienesSomos}></Route>
         <Route exact path="/RsCommands" component={RadiacionSolarCommands}></Route>
+        <Route exact path="/TempCommands" component={temperaturaCommands}></Route>
+        <Route exact path="/RuvCommands" component={RadiacionUvCommands}></Route>
+        <Route exact path="/Principal" component={principal}></Route>
       </div>
     </Router>
   );

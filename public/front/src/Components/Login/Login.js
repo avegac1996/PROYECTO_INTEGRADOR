@@ -51,7 +51,7 @@ class Login extends Component {
     }
 
     if (this.state.login) {
-      return <Redirect to="/RsCommands" />;
+      return <Redirect to="/principal" />;
     }
 
     return (
